@@ -1,0 +1,106 @@
+<html>
+<head>
+<title>Eye Software Solutions</title>
+<script language="JavaScript">
+<!--
+
+if (document.images) {
+  image1on = new Image();
+  image1on.src = "Button1On.jpg";
+
+  image2on = new Image();
+  image2on.src = "Button2On.jpg";
+
+  image3on = new Image();
+  image3on.src = "Button3On.jpg";
+
+  image4on = new Image();
+  image4on.src = "Button4On.jpg";
+
+  image5on = new Image();
+  image5on.src = "Button5On.jpg";
+
+  image1off = new Image();
+  image1off.src = "Button1Off.jpg";
+
+  image2off = new Image();
+  image2off.src = "Button2Off.jpg";
+
+  image3off = new Image();
+  image3off.src = "Button3Off.jpg";
+
+  image4off = new Image();
+  image4off.src = "Button4Off.jpg";
+
+  image5off = new Image();
+  image5off.src = "Button5Off.jpg";
+
+}
+
+function changeImages() {
+  if (document.images) {
+    for (var i=0; i<changeImages.arguments.length; i+=2) {
+      document[changeImages.arguments[i]].src = eval(changeImages.arguments[i+1] + ".src");
+    }
+  }
+}
+
+// -->
+</script>
+</head>
+
+<body background="back.jpg">
+<table border="0" cellspacing="0" cellpadding="0" width=900>
+	<tr valign="top">
+	  <td width=200>
+			<table border="0" cellspacing="0" cellpadding="0" marginheight=0 marginwidth=0>
+				<tr align="top" valign="top">
+					<td><img src="Top.jpg" border="0"></td>
+					<!--
+					<td><img src="TopRight.jpg" border="0"></td>
+					-->
+				</tr>
+				<tr align="top" valign="top">
+					<td><a href="Services.html" onMouseOver="changeImages('image1', 'image1on')" onMouseOut="changeImages('image1', 'image1off')"><img name="image1" src="Button1Off.jpg" border="0"></A></td>
+				</tr>
+				<tr align="top" valign="top">
+					<td><a href="Portfolio.html" onMouseOver="changeImages('image2', 'image2on')" onMouseOut="changeImages('image2', 'image2off')"><img name="image2" src="Button2Off.jpg" border="0"></A></td>
+				</tr>
+				<tr align="top" valign="top">
+					<td><a href="Pricing.html" onMouseOver="changeImages('image3', 'image3on')" onMouseOut="changeImages('image3', 'image3off')"><img name="image3" src="Button3Off.jpg" border="0"></A></td>
+				</tr>
+				<tr align="top" valign="top">
+					<td><a href="Info.html" onMouseOver="changeImages('image4', 'image4on')" onMouseOut="changeImages('image4', 'image4off')"><img name="image4" src="Button4Off.jpg" border="0"></A></td>
+				</tr>
+				<tr align="top" valign="top">
+					<td><a href="mailto:eyesoft@optonline.net" onMouseOver="changeImages('image5', 'image5on')" onMouseOut="changeImages('image5', 'image5off')"><img name="image5" src="Button5Off.jpg" border="0"></A></td>
+				</tr>
+				<!--
+				<tr align="top" valign="top">
+					<td><img src="Map6.jpg" border="0"></td>
+				</tr>
+				<tr align="top" valign="top">
+					<td><img src="Left2.jpg" border="0"></td>
+				</tr>
+				-->
+			</table>
+		</td>
+		<td>
+			<p><br>
+			<center><a href="index.html"><img src="Title.jpg" border=0></a></center>
+			<p><br>
+			Located in Fairfield, CT, Eye Software Solutions quickly established themselves by landing
+			contracts for Filofax, Inc., The U.S. distributor of Filofax personal organizers, Roseland
+			Ballroom in NYC, and RC
+			Dolner, a New York construction contractor with over $300 Million in annual revenue.
+			<p><br>
+			Eye Software Solutions can help you with your software/hardware needs, whether you need to
+			troubleshoot a home P.C. or network your small business. Eye Software Solutions caters to the
+			individual, and no job is too small.
+
+			<p><br>
+		</td>
+	</tr>
+</body>
+
+</html>

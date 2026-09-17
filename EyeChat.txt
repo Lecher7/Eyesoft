@@ -1,0 +1,41 @@
+				
+**************************************************************************************
+**                                  							                                  **
+**       		                   (º·.¸(¨*·.¸  ¸.·*¨)¸.·º)															**	
+**			                      «.·°·. EyeChat V1.0 .·°·.»														**	
+**						                 (¸.·º(¸.·¨*  *¨·.¸)º·.¸)															**		
+**																																									**
+**																																									**
+**																																									**
+**	EyeChat 1.0 is a very robust chat software created for websites running on a		**
+** 	Windows-based system (NT, Windows 98's "PWS", IIS).  The Lite (free) version 		**
+**  of the software is fully functional, though it doesn't allow for too much				**
+**  additional functionality.  The Full Version adds the ability to force people 		**
+**  to register, add "emiticons" to the posts, restrict the amount of users, 				**
+**  auto-refresh the chatroom, add language filters, find your friends and more.		**
+**																																									**	
+**  EyeChat Full Version can be obtained for $149.99 by sending a request to Eye 		**
+**  Software Solutions</a> with the subject line: "EyeChat Full Version Purchase".  **
+**  We accept cash, checks, money orders and credit cards through Paypal. 					**
+**																																									**
+**************************************************************************************
+
+
+Simply install these files into a directory with "read & write" permissions:
+  EyeChat.pl
+  EyeChat.conf
+  EyeChat.lang
+
+In most cases, installing them into a cgi-bin directory will do, but you can opt to 
+install them into a directory called "EyeChat" as well and it might be easier to keep 
+things organized that way.  Wherever you install them, make sure that you also create 
+these sub-directories in the same directory as those files:
+  chatarchives
+  chatfiles
+  chatvis
+  chatplugins
+  emoticons
+  profiles
+
+Open up each file and edit the paths accordingly.  Once all the paths are edited, the
+script should run without further editing.
