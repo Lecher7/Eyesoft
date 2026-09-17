@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>Woods Template</title>
+<STYLE type=text/css>BODY {
+	FONT-FAMILY: Verdana,Arial; font-size : 12px; }
+  A:link { color:#0000ff; text-decoration:none; }
+  A:visited { color:#ff0000; text-decoration:none; }
+  A:active { color:#000000; text-decoration:none; }
+  A:hover { text-decoration: underline;
+	color: #cc3366; }
+body {
+	scrollbar-3d-light-color : #ffffff;
+	scrollbar-arrow-color : #ffffff;
+	scrollbar-base-color : #333333;
+	scrollbar-dark-shadow-color : #333333;
+	scrollbar-face-color : #617668;
+	scrollbar-highlight-color : #eeeeee;
+	scrollbar-shadow-color : #333333;
+	scrollbar-track-color : #809E8C;
+}
+</STYLE>
+<SCRIPT language="JavaScript">
+var message="Contents of this website are copyrighted and are not to be duplicated without express permission of site owner.";
+function click(e) {
+if (document.all) {
+if (event.button==2||event.button==3) {
+alert(message);
+return false;}
+}
+if (document.layers) {
+if (e.which == 3) {
+alert(message);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}document.onmousedown=click;
+//
+</SCRIPT>
+<SCRIPT LANGUAGE="JavaScript"><!--
+/*********************************************************
+              M A G I C  B U T T O N S  v3.0
+      Permission is granted to freely use this script.
+**********************************************************/
+
+// preload images:
+if (document.images) {
+press_init = new Image(100,16); press_init.src = "images/button1.gif";
+press___up = new Image(100,16); press___up.src = "images/button2.gif";
+press_down = new Image(100,16); press_down.src = "images/button3.gif";
+}
+
+function hiLite(imgName,imgObjName) {
+if (document.images) {
+  document.images[imgName].src = eval(imgObjName + ".src");
+}}
+
+function nada() {
+// empty function
+}
+
+//--></SCRIPT>
+</head>
+<body marginheight=10 marginwidth=20 topmargin=10 leftmargin=20>
+<!-- CONTENT BEGINS -->
+<h3>Woods Template</h3>
+<P>
+Any picture of your choice can go on the left side, the forest picture is the default.
+<p><br>
+There are 3 bullets available for this set:<p>
+<div align="center"><img src="images/dot1.gif" width="17" height="18" border="0" alt="">&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/dot2.gif" width="17" height="18" border="0" alt="">&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/dot3.gif" width="17" height="18" border="0" alt=""></div>
+<p>
+There is a horizontal bar:<p>
+<div align="center"><img src="images/hbar.gif" width="350" height="4" border="0" alt=""></div>
+<p>
+There are 3 button colors to work with:<p>
+<div align="center"><img src="images/button1.gif" width="100" height="16" border="0" alt="">&nbsp;&nbsp;<img src="images/button2.gif" width="100" height="16" border="0" alt="">&nbsp;&nbsp;<img src="images/button3.gif" width="100" height="16" border="0" alt=""></div>
+<p>
+<b>There is a button which changes color that is also available:<p>. <p>
+<div align="center"><A HREF="#"
+   onMouseOver="hiLite('img01','press___up')"
+   onMouseOut="hiLite('img01','press_init')"
+   onMouseDown="hiLite('img01','press_down')"
+   onMouseUp="hiLite('img01','press___up')"><IMG
+      SRC="images/button1.gif" WIDTH="100" HEIGHT="16" BORDER="0" ALT="" NAME="img01"></A></div>
+<p>
+<P>
+<br><br>
+<p>
+<div align="center"><font size=1>Site maintained by <a href="http://www.aftk.com">Eye Software Solutions</a>.</font></div>
+
+</body>
+</html>
