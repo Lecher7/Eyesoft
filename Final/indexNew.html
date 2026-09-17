@@ -1,0 +1,405 @@
+<html>
+
+<head>
+<link REL="StyleSheet" HREF="rcDolner.css" TYPE="text/css" MEDIA="screen">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="description" content="Filofax">
+<meta name="keywords" content="Pens">
+<title>Filofax</title>
+</head>
+
+<body bgcolor="#FFFFFF" link="#008080" vlink="#790D9D">
+<script language="JavaScript">
+<!--
+if (document.images) {  // If the image object exists
+      // Preload images
+    button1on = new Image();
+    button1on.src = "Images/Test/Fountain-Text.jpg";
+    button2on = new Image();
+    button2on.src = "Images/Test/BallPoint-Text.jpg";
+    button3on = new Image();
+    button3on.src = "Images/Test/Pencil-Text.jpg";
+    button4on = new Image();
+    button4on.src = "Images/Test/RollerBall-Text.jpg";
+    button5on = new Image();
+    button5on.src = "Images/Test/Multicolor-Text.jpg";
+    button6on = new Image();
+    button6on.src = "Images/Test/Multisystem-Text.jpg";
+    button7on = new Image();
+    button7on.src = "Images/Test/Refill-Text.jpg";
+    button8on = new Image();
+    button8on.src = "Images/Test/Repair-Text.jpg";
+    button9on = new Image();
+    button9on.src = "Images/Test/Contact-Text.jpg";
+
+    light1on = new Image();
+    light1on.src = "Images/Interface/FountainOn.jpg";
+    light2on = new Image();
+    light2on.src = "Images/Interface/BallPointOn.jpg";
+    light3on = new Image();
+    light3on.src = "Images/Interface/PencilOn.jpg";
+    light4on = new Image();
+    light4on.src = "Images/Interface/RollerBallOn.jpg";
+    light5on = new Image();
+    light5on.src = "Images/Interface/MulticolorOn.jpg";
+    light6on = new Image();
+    light6on.src = "Images/Interface/MultisystemOn.jpg";
+    light7on = new Image();
+    light7on.src = "Images/Interface/RefillsOn.jpg";
+    light8on = new Image();
+    light8on.src = "Images/Interface/RepairOn.jpg";
+    light9on = new Image();
+    light9on.src = "Images/Interface/ContactOn.jpg";
+
+    screen1on = new Image();
+    screen1on.src = "Images/Interface/95bb.jpg";
+    screen2on = new Image();
+    screen2on.src = "Images/Interface/223.jpg";
+    screen3on = new Image();
+    screen3on.src = "Images/Interface/125.jpg";
+    screen4on = new Image();
+    screen4on.src = "Images/Interface/330.jpg";
+    screen5on = new Image();
+    screen5on.src = "Images/Interface/401.jpg";
+    screen6on = new Image();
+    screen6on.src = "Images/Interface/746.jpg";
+    screen7on = new Image();
+    screen7on.src = "Images/Interface/000.jpg";
+    screen8on = new Image();
+    screen8on.src = "Images/Interface/NoScreen.jpg";
+    screen9on = new Image();
+    screen9on.src = "Images/Interface/NoScreen.jpg";
+
+
+    button1off = new Image();
+    button1off.src = "Images/Test/Fountain-TextOff.jpg";
+    button2off = new Image();
+    button2off.src = "Images/Test/BallPoint-TextOff.jpg";
+    button3off = new Image();
+    button3off.src = "Images/Test/Pencil-TextOff.jpg";
+    button4off = new Image();
+    button4off.src = "Images/Test/RollerBall-TextOff.jpg";
+    button5off = new Image();
+    button5off.src = "Images/Test/Multicolor-TextOff.jpg";
+    button6off = new Image();
+    button6off.src = "Images/Test/Multisystem-TextOff.jpg";
+    button7off = new Image();
+    button7off.src = "Images/Test/Refill-TextOff.jpg";
+    button8off = new Image();
+    button8off.src = "Images/Test/Repair-TextOff.jpg";
+    button9off = new Image();
+    button9off.src = "Images/Test/Contact-TextOff.jpg";
+
+    light1off = new Image();
+    light1off.src = "Images/Interface/FountainOff.jpg";
+    light2off = new Image();
+    light2off.src = "Images/Interface/BallPointOff.jpg";
+    light3off = new Image();
+    light3off.src = "Images/Interface/PencilOff.jpg";
+    light4off = new Image();
+    light4off.src = "Images/Interface/RollerBallOff.jpg";
+    light5off = new Image();
+    light5off.src = "Images/Interface/MulticolorOff.jpg";
+    light6off = new Image();
+    light6off.src = "Images/Interface/MultisystemOff.jpg";
+    light7off = new Image();
+    light7off.src = "Images/Interface/RefillsOff.jpg";
+    light8off = new Image();
+    light8off.src = "Images/Interface/RepairOff.jpg";
+    light9off = new Image();
+    light9off.src = "Images/Interface/ContactOff.jpg";
+
+    }
+
+    function buttonOn(buttonName,lightName,screenName) {
+        if (document.images) { // If the image object exists
+          // Change images on the page
+          //document[buttonName].src = eval(buttonName + "on.src");
+          document[lightName].src = eval(lightName + "on.src");
+          document.screen.src = eval(screenName + "on.src");
+
+        }
+    }
+
+    function buttonOff(buttonName,lightName,screenName) {
+        if (document.images) { // If the image object exists
+          // Change images on the page
+          //document[buttonName].src = eval(buttonName + "off.src");
+          document[lightName].src = eval(lightName + "off.src");
+          document.screen.src = "Images/Interface/NoScreen.jpg";
+        }
+    }
+
+    function changeDivs(target,idx)	{
+				var obj;
+
+				for(i = 1; i <= idx; i++)
+				{
+					obj = 'div' + i;
+					obj = document.getElementById(obj);
+					if(i == target)
+						obj.style.display = 'block';
+					else
+						obj.style.display = 'none';
+				}
+		}
+-->
+</script>
+<!--
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td>
+          <a href="Index3.html">
+          <img src="Images/LogoPt1.jpg" border="0" name="screen" width="68" height="68">
+          <img src="Images/LogoPt2.jpg" border="0"></a>
+        </td>
+    </tr>
+		<tr bgcolor="#000000" border="0" cellpadding="2" cellspacing="0" width="100%" style="margin-top:2pt; font-size:10pt; ">
+			<td width="50%">
+				<nobr>
+				<font color="#FFFFFF">The LAMY Pen Collection</font>
+				</nobr>
+			</td>
+			<td align="right" width="50%">
+				<nobr>
+				<i>
+				<font color="#FFFFFF">The Affair Starts Here</font>
+				</i>
+				</nobr>
+			</td>
+		</tr>
+    <tr>
+      <br>
+    </tr>
+</table>
+-->
+
+<table border="0" cellpadding="0" cellspacing="0" align="center">
+  <tr>
+    <td colspan="11" valign="top">
+      <img src="Images/Interface/Top.jpg" border="0" align="top">
+    </td>
+  </tr>
+	<tr>
+		<td valign="top">
+			<img src="Images/Interface/Left.jpg" border="0">
+		</td>
+		<td>
+			<!--
+			<img src="Images/Fountain-TextOff.jpg" alt="Fountain" border="0" name="button1" align="center">
+			-->
+			<a href="Fountain.html"
+			target="main"
+			onmouseover="window.status = 'Fountain Pens';buttonOn('button1','light1','screen1');changeDivs(1,10); "
+			onmouseout="window.status = ''; buttonOff('button1','light1','screen1');changeDivs(10,10) "
+			;border="0">
+			<img src="Images/Interface/FountainOff.jpg" name="light1" valign="top" border="0">
+			</a>
+		</td>
+		<td>
+			<!--
+			<img src="Images/Ballpoint-TextOff.jpg" alt="Ballpoint" border="0" name="button2" align="center">
+			-->
+			<a href="Ballpoint.html"
+				target="main"
+				onmouseover="window.status = 'Ball Point Pens';buttonOn('button2','light2','screen2');changeDivs(2,10); "
+				onmouseout="window.status = '';     buttonOff('button2','light2','screen2');changeDivs(10,10) "
+				;border="0">
+				<img src="Images/Interface/BallpointOff.jpg" name="light2" valign="top" border="0">
+			</a>
+		</td>
+		<td>
+			<!--
+			<img src="Images/Pencils-TextOff.jpg" alt="Pencils" border="0" name="button3" align="center">
+			-->
+			<a href="Pencils.html"
+				target="main"
+				onmouseover="window.status = 'Pencils';buttonOn('button3','light3','screen3');changeDivs(3,10); "
+				onmouseout="window.status = ''; buttonOff('button3','light3','screen3');changeDivs(10,10) "
+				;border="0">
+			<img src="Images/Interface/PencilOff.jpg" name="light3" valign="top" border="0">
+			</a>
+		</td>
+		<td>
+			<!--
+			<img src="Images/Rollerball-TextOff.jpg" alt="Rollerball" border="0" name="button4" align="center">
+			-->
+			<a href="Rollerball.html"
+				target="main"
+				onmouseover="window.status = 'Rollerball Pens';buttonOn('button4','light4','screen4');changeDivs(4,10); "
+				onmouseout="window.status = ''; buttonOff('button4','light4','screen4');changeDivs(10,10) "
+				;border="0">
+			<img src="Images/Interface/RollerballOff.jpg" name="light4" valign="top" border="0">
+			</a>
+		</td>
+		<td>
+			<!--
+			<img src="Images/Multicolor-TextOff.jpg" alt="Multicolor" border="0" name="button5" align="center">
+			-->
+			<a href="Multicolor.html"
+				target="main"
+				onmouseover="window.status = 'Multi Color Pens';buttonOn('button5','light5','screen5');changeDivs(5,10); "
+				onmouseout="window.status = ''; buttonOff('button5','light5','screen5');changeDivs(10,10) "
+				;border="0">
+			<img src="Images/Interface/MultiColorOff.jpg" name="light5" valign="top" border="0">
+			</a>
+		</td>
+		<td>
+			<!--
+			<img src="Images/Multisystem-TextOff.jpg" alt="Multisystem" border="0" name="button6" align="center">
+			-->
+			<a href="Multisystem.html"
+				target="main"
+				onmouseover="window.status = 'Multi System Pens';buttonOn('button6','light6','screen6');changeDivs(6,10); "
+				onmouseout="window.status = ''; buttonOff('button6','light6','screen6');changeDivs(10,10) "
+				;border="0">
+			<img src="Images/Interface/MultiSystemOff.jpg" name="light6" valign="top" border="0">
+			</a>
+		</td>
+		<td>
+			<!--
+			<img src="Images/Refills-TextOff.jpg" alt="Refills" border="0" name="button7" align="center">
+			-->
+			<a href="Refills.html"
+				target="main"
+				onmouseover="window.status = 'Refills';buttonOn('button7','light7','screen7');changeDivs(7,10); "
+				onmouseout="window.status = ''; buttonOff('button7','light7','screen7');changeDivs(10,10) "
+				;border="0">
+			<img src="Images/Interface/RefillsOff.jpg" name="light7" valign="top" border="0">
+			</a>
+		</td>
+		<td>
+			<!--
+			<img src="Images/Repairs-TextOff.jpg" alt="Repairs" border="0" name="button7" align="center">
+			-->
+			<a href="Repairs.html"
+				target="main"
+				onmouseover="window.status = 'Repairs';buttonOn('button8','light8','screen8');changeDivs(8,10); "
+				onmouseout="window.status = ''; buttonOff('button8','light8','screen8');changeDivs(10,10) "
+				;border="0">
+			<img src="Images/Interface/RepairOff.jpg" name="light8" valign="top" border="0">
+			</a>
+		</td>
+		<td>
+			<!--
+			<img src="Images/Contact-TextOff.jpg" alt="Contact" border="0" name="button7" align="center">
+			-->
+			<a href="mailto:info@filofaxusa.com"
+				target="main"
+				onmouseover="window.status = 'Contact Us';buttonOn('button9','light9','screen9');changeDivs(9,10); "
+				onmouseout="window.status = ''; buttonOff('button9','light9','screen9');changeDivs(10,10) "
+				;border="0">
+			<img src="Images/Interface/ContactOff.jpg" name="light9" valign="top" border="0">
+			</a>
+		</td>
+		<td>
+			<img src="Images/Interface/Right.jpg" border="0">
+		</td>
+	</tr>
+	<tr colspan="10">
+		<td colspan="5" valign="center">
+
+		  <div id=div1 style="display:block; ">
+					<center>
+					<h2>Fountain Pens</h2>
+					</center>
+			</div>
+
+		  <div id=div2 style="display:none; ">
+					<center>
+					<h2>Ballpoint Pens</h2>
+					</center>
+	  	</div>
+
+				<div id=div3 style="display:none; ">
+					<center>
+					<h2>Mechanical Pencils</h2>
+					</center>
+				</div>
+
+				<div id=div4 style="display:none; ">
+					<center>
+					<h2>Rollerball Pencils</h2>
+					</center>
+				</div>
+
+				<div id=div5 style="display:none; ">
+					<center>
+					<h2>Multicolor Ball Point Pens</h2>
+					</center>
+				</div>
+
+				<div id=div6 style="display:none; ">
+					<center>
+					<h2>Multi System Pens</h2>
+					</center>
+				</div>
+
+				<div id=div7 style="display:none; ">
+					<center>
+					<h2>Refills</h2>
+					</center>
+				</div>
+
+				<div id=div8 style="display:none; ">
+					<center>
+					<h2>Repairs</h2>
+					</center>
+				</div>
+
+				<div id=div9 style="display:none; ">
+					<center>
+					<h2>Contact Us</h2>
+					</center>
+				</div>
+
+				<div id=div10 style="display:none; ">
+					<center>
+					</center>
+				</div>
+
+			</td>
+			<td colspan="5" valign="top">
+				<img src="Images/Interface/NoScreen.jpg" name="screen">
+			</td>
+	</tr>
+</table>
+</div>
+<!--
+</center>
+
+<div align="center">
+
+<center>
+<!-- This is the header bar -->
+<!--
+<table align="center" bgcolor="#000000" border="0" width="100%" style="margin-bottom:5pt; ">
+  <tr>
+    <td class="hideIt">
+			Eye Software Solutions
+			</nobr>
+    </td>
+  </tr>
+</table>
+-->
+<p><br>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="695">
+    <tr>
+    	<td>
+        <font size="-2" color="#008822">
+        <center>Copyright (C) 2002, Filofax U.S.A.<br>
+					All pictures and texts are copyright to their respective owners and cannot be used without permission.<br>
+					Website developed and maintained by Eye Software Solutions
+				</center>
+				</font></p>
+      </td>
+    </tr>
+</table>
+</center>
+<!--
+</div>
+
+</div>
+-->
+</body>
+</html>
